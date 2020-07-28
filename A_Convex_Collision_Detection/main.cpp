@@ -46,7 +46,7 @@ int main(int argc, char* argv[])
 	glutInitWindowSize(Application::getInstance().getWindowWidth(),
 		Application::getInstance().getWindowHeight());
 	glutInitWindowPosition(100, 100);
-	glutCreateWindow("OpenGL Test");
+	glutCreateWindow("A Convex Collision Detection");
 	
 	glutDisplayFunc(displayCallback);
 	glutMouseFunc(mouseCallback);
