@@ -9,8 +9,8 @@
 
 void displayCallback()
 {
-	Application::getInstance().handleCollision();
 	Application::getInstance().update();
+	Application::getInstance().handleCollision();
 	Application::getInstance().render();
 }
 
